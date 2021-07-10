@@ -1,0 +1,28 @@
+.picture{
+    text-align : center
+}
+
+.picture img{
+    width: 300px;
+}
+
+.f-contents{
+    justify-content: center;
+}
+
+.f-contents{
+    display: flex;
+    justify-content: space-around;
+}
+
+.picture_box{
+    border: 2px solid;
+    text-align: center;
+    padding: 70px;
+}   
+
+@media only screen and (max-width: 896px){
+    .picture_box{
+        background-color: crimson;
+    }
+}
